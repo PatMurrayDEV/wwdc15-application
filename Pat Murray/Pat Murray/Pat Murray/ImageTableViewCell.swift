@@ -11,6 +11,7 @@ import UIKit
 class ImageTableViewCell: UITableViewCell {
 
     @IBOutlet weak var detailImageView: UIImageView!
+    @IBOutlet weak var bgImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -19,9 +20,10 @@ class ImageTableViewCell: UITableViewCell {
     }
     
     func loadItem(detailString: String){
+        NSLog("rtfNamed = \(detailString)")
         var detailImage = UIImage(named: detailString)!
         detailImageView.image = detailImage
-        self.backgroundColor = .clearColor()
+        bgImageView.image = detailImage
     }
 
     override func setSelected(selected: Bool, animated: Bool) {

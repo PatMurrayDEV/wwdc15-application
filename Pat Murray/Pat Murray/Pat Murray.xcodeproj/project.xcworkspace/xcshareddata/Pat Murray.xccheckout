@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>77CAA4D4-4CC8-4249-92E2-55C629E701B8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pat Murray</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AB8D1F9CCA671FB390377AC2F65961EDF2012B9E</key>
+		<string>https://github.com/PatMurrayDEV/wwdc15-application.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pat Murray/Pat Murray.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AB8D1F9CCA671FB390377AC2F65961EDF2012B9E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/PatMurrayDEV/wwdc15-application.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AB8D1F9CCA671FB390377AC2F65961EDF2012B9E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AB8D1F9CCA671FB390377AC2F65961EDF2012B9E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wwdc15-application</string>
+		</dict>
+	</array>
+</dict>
+</plist>

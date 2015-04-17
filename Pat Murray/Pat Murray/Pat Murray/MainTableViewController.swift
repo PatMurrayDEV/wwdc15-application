@@ -19,7 +19,7 @@ class MainTableViewController: UITableViewController {
 // MARK: - Declarations
     
     let array = ["About Me","intro2","bgImage1","intro2","intro"]
-    let array2 : [(type: CellType, content: String)] = [(.Header, "Patrick Murray"), (.Text, "intro"), (.Text, "intro2"), (.Photo, "bgImage"), (.Photo, "Profile"), (.Photo, "Profile")]
+    let array2 : [(type: CellType, content: String)] = [(.Header, "Patrick Murray"), (.Text, "intro"), (.Photo, "bgImage"), (.Photo, "Profile"), (.Text, "intro2"), (.Photo, "Profile")]
     
     let headerIdentifier = "headerCell"
     let textIdentifier = "textCell"
@@ -29,11 +29,7 @@ class MainTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.backgroundColor = .clearColor()
-        view.backgroundColor = .clearColor()
-        tableView.estimatedRowHeight = 60.0;
-        tableView.rowHeight = UITableViewAutomaticDimension;
-        tableView.contentInset = UIEdgeInsetsMake(80, 0, 0, 0)
+
     }
     
     override func didReceiveMemoryWarning() {
@@ -41,21 +37,6 @@ class MainTableViewController: UITableViewController {
     }
     
 // MARK: - Table View
-    // MARK: Tablr view delegate
-    
-    override func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        let typeOfCell : CellType = array2[indexPath.row].type
-        switch typeOfCell {
-        case .Header:
-            return 190
-        case .Photo:
-            return 130
-        case .Text:
-            return UITableViewAutomaticDimension
-        }
-        
-    }
-    
     // MARK: Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -93,32 +74,15 @@ class MainTableViewController: UITableViewController {
     }
     
     func textCellAtIndexPath(indexPath: NSIndexPath, content: String) -> UITableViewCell {
-        let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "cell")
-        cell.textLabel?.attributedText = getAttributedText(content)
-        cell.textLabel?.numberOfLines = 0
-        cell.backgroundColor = .clearColor()
-        cell.selectionStyle = .None
+        let cell = tableView.dequeueReusableCellWithIdentifier(textIdentifier, forIndexPath: indexPath) as! TextTableViewCell
+        cell.loadItem(content)
         return cell
     }
     
     func photoCellAtIndexPath(indexPath: NSIndexPath, content: String) -> UITableViewCell {
-        // let cell = tableView.dequeueReusableCellWithIdentifier(imageIdentifier, forIndexPath: indexPath) as! ImageTableViewCell
-        let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "cell")
-        cell.imageView?.image = UIImage(named: content)
-        // cell.loadItem(content)
+        let cell = tableView.dequeueReusableCellWithIdentifier(imageIdentifier, forIndexPath: indexPath) as! ImageTableViewCell
+        cell.loadItem(content)
         return cell
     }
-    
-    func getAttributedText(content: String) -> NSAttributedString {
-        
-        let rtfNamed = content
-        let bundle = NSBundle.mainBundle()
-        NSLog("rtfNamed = \(rtfNamed)")
-        let path = bundle.pathForResource(rtfNamed, ofType: "rtf")!
-        let dataRTF : NSData = NSData(contentsOfFile: path)!
-        var printString : NSAttributedString = NSAttributedString(data: dataRTF, options: nil, documentAttributes: nil, error: nil)!
-        return printString
-    }
-
 
 }

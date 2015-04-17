@@ -17,6 +17,10 @@ class TextTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         self.selectionStyle = .None
+        textView.setTranslatesAutoresizingMaskIntoConstraints(false)
+        
+        
+        
     }
     
     func loadItem(rtfNamed : String){
@@ -28,7 +32,8 @@ class TextTableViewCell: UITableViewCell {
         var printString : NSAttributedString = NSAttributedString(data: dataRTF, options: nil, documentAttributes: nil, error: nil)!
         textView.attributedText = printString
         textView.layoutIfNeeded()
-        self.bounds.size.height = textView.bounds.height + 10
+        println(textView.bounds.height )
+        self.bounds.size.height = textView.bounds.height + 40
     }
 
     override func setSelected(selected: Bool, animated: Bool) {

@@ -33,7 +33,6 @@ class HeaderTableViewCell: UITableViewCell {
         let headerImage : UIImage = UIImage(named: image)!
         headerImageView.image = headerImage
         headerTitleLabel.text = title
-        self.backgroundColor = .clearColor()
 
         
     }
