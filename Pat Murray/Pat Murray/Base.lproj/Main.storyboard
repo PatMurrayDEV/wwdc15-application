@@ -246,7 +246,7 @@
         <scene sceneID="NuG-P6-qQQ">
             <objects>
                 <tableViewController id="G8O-xO-8oh" customClass="MainTableViewController" customModule="Pat_Murray" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="190" sectionHeaderHeight="22" sectionFooterHeight="22" id="jC6-QP-r03">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="190" sectionHeaderHeight="22" sectionFooterHeight="22" id="jC6-QP-r03">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -259,14 +259,17 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8s3-Xe-aUC">
                                             <rect key="frame" x="250" y="8" width="100" height="100"/>
                                             <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="1Xb-Sa-u7v"/>
                                                 <constraint firstAttribute="width" constant="100" id="5Fp-5k-5GS"/>
                                                 <constraint firstAttribute="height" constant="100" id="eBi-su-mG5"/>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="ghm-Wa-4PD"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afb-Ud-DzR">
                                             <rect key="frame" x="8" y="116" width="584" height="74"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="74" id="AOF-sM-MJm"/>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="74" id="Pvb-gG-v1E"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="32"/>
                                             <nil key="highlightedColor"/>
@@ -277,10 +280,16 @@
                                         <constraint firstItem="afb-Ud-DzR" firstAttribute="leading" secondItem="KNX-Rh-vuR" secondAttribute="leadingMargin" id="2Ne-px-Vzi"/>
                                         <constraint firstItem="afb-Ud-DzR" firstAttribute="top" secondItem="8s3-Xe-aUC" secondAttribute="bottom" constant="8" id="7xZ-gF-ZzJ"/>
                                         <constraint firstAttribute="centerX" secondItem="8s3-Xe-aUC" secondAttribute="centerX" id="CfV-n8-gyP"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="afb-Ud-DzR" secondAttribute="bottom" constant="-8" id="CjQ-NJ-jE3"/>
                                         <constraint firstItem="afb-Ud-DzR" firstAttribute="top" secondItem="8s3-Xe-aUC" secondAttribute="bottom" constant="8" id="D4h-xr-wN3"/>
+                                        <constraint firstItem="8s3-Xe-aUC" firstAttribute="top" secondItem="KNX-Rh-vuR" secondAttribute="topMargin" id="E04-Ef-jW4"/>
                                         <constraint firstItem="afb-Ud-DzR" firstAttribute="top" secondItem="8s3-Xe-aUC" secondAttribute="bottom" constant="8" id="Eyb-7M-5hK"/>
+                                        <constraint firstItem="afb-Ud-DzR" firstAttribute="leading" secondItem="KNX-Rh-vuR" secondAttribute="leadingMargin" id="Oet-n5-OOA"/>
+                                        <constraint firstItem="afb-Ud-DzR" firstAttribute="trailing" secondItem="KNX-Rh-vuR" secondAttribute="trailingMargin" id="SdH-l7-AvM"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="afb-Ud-DzR" secondAttribute="bottom" constant="-9" id="Tcf-vr-t67"/>
+                                        <constraint firstItem="afb-Ud-DzR" firstAttribute="top" secondItem="8s3-Xe-aUC" secondAttribute="bottom" constant="8" id="U0U-zk-RMf"/>
                                         <constraint firstItem="afb-Ud-DzR" firstAttribute="trailing" secondItem="KNX-Rh-vuR" secondAttribute="trailingMargin" id="ieJ-WG-qmc"/>
+                                        <constraint firstAttribute="centerX" secondItem="8s3-Xe-aUC" secondAttribute="centerX" id="kyJ-DD-1sn"/>
                                         <constraint firstItem="8s3-Xe-aUC" firstAttribute="top" secondItem="KNX-Rh-vuR" secondAttribute="topMargin" id="nhs-TK-h7x"/>
                                         <constraint firstItem="afb-Ud-DzR" firstAttribute="top" secondItem="8s3-Xe-aUC" secondAttribute="bottom" constant="8" id="tk7-N0-1kh"/>
                                     </constraints>
@@ -290,15 +299,18 @@
                                     <outlet property="headerTitleLabel" destination="afb-Ud-DzR" id="Ofe-pq-Upw"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="textCell" id="q91-R5-e1I" customClass="TextTableViewCell" customModule="Pat_Murray" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="textCell" rowHeight="80" id="q91-R5-e1I" customClass="TextTableViewCell" customModule="Pat_Murray" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="q91-R5-e1I" id="VY6-Ij-0jb">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkU-dr-piw">
-                                            <rect key="frame" x="8" y="8" width="584" height="173"/>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkU-dr-piw">
+                                            <rect key="frame" x="8" y="8" width="584" height="70"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="v5e-cV-yua"/>
+                                            </constraints>
                                             <attributedString key="attributedText">
                                                 <fragment>
                                                     <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -314,12 +326,18 @@
                                     <constraints>
                                         <constraint firstItem="jkU-dr-piw" firstAttribute="top" secondItem="VY6-Ij-0jb" secondAttribute="topMargin" id="0rO-Lw-4Wf"/>
                                         <constraint firstItem="jkU-dr-piw" firstAttribute="leading" secondItem="VY6-Ij-0jb" secondAttribute="leadingMargin" id="XO1-W9-PWQ"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="jkU-dr-piw" secondAttribute="bottom" id="Xa6-Vq-lJR"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="jkU-dr-piw" secondAttribute="bottom" constant="1" id="Xa6-Vq-lJR"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="jkU-dr-piw" secondAttribute="trailing" id="oek-EM-WYq"/>
                                     </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="Xa6-Vq-lJR"/>
+                                        </mask>
+                                    </variation>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="textView" destination="jkU-dr-piw" id="pJf-ky-LRL"/>
+                                    <outlet property="textViewHeightContraint" destination="v5e-cV-yua" id="btw-PS-wrF"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="photoCell" rowHeight="110" id="Owf-kr-Sho" customClass="ImageTableViewCell" customModule="Pat_Murray" customModuleProvider="target">
@@ -334,9 +352,13 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Cau-xI-OTp" firstAttribute="leading" secondItem="uJ5-zt-CeN" secondAttribute="leadingMargin" id="2tz-wk-Luh"/>
+                                        <constraint firstItem="Cau-xI-OTp" firstAttribute="trailing" secondItem="uJ5-zt-CeN" secondAttribute="trailingMargin" id="3k9-8J-VBM"/>
                                         <constraint firstItem="Cau-xI-OTp" firstAttribute="trailing" secondItem="uJ5-zt-CeN" secondAttribute="trailingMargin" id="CYH-Dw-QdA"/>
-                                        <constraint firstItem="Cau-xI-OTp" firstAttribute="bottom" secondItem="uJ5-zt-CeN" secondAttribute="bottomMargin" id="iuW-3A-gmj"/>
+                                        <constraint firstItem="Cau-xI-OTp" firstAttribute="bottom" secondItem="uJ5-zt-CeN" secondAttribute="bottomMargin" constant="-1" id="iuW-3A-gmj"/>
+                                        <constraint firstItem="Cau-xI-OTp" firstAttribute="top" secondItem="uJ5-zt-CeN" secondAttribute="topMargin" id="nan-aP-AXS"/>
                                         <constraint firstItem="Cau-xI-OTp" firstAttribute="top" secondItem="uJ5-zt-CeN" secondAttribute="topMargin" id="qN9-f1-o32"/>
+                                        <constraint firstItem="Cau-xI-OTp" firstAttribute="leading" secondItem="uJ5-zt-CeN" secondAttribute="leadingMargin" id="qRg-44-zzW"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Cau-xI-OTp" secondAttribute="bottom" constant="1" id="sBJ-m2-Uc1"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>

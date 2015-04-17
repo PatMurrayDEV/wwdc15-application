@@ -15,6 +15,7 @@ class ImageTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.selectionStyle = .None
     }
     
     func loadItem(detailString: String){

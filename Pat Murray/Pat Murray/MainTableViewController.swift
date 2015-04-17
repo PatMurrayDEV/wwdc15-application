@@ -9,8 +9,15 @@
 import UIKit
 
 class MainTableViewController: UITableViewController {
+    
+    enum CellType {
+        case Header
+        case Text
+        case Photo
+    }
 
-    let array = ["About Me","intro2","intro","intro2","intro"]
+    let array = ["About Me","intro2","bgImage1","intro2","intro"]
+    let array2 : [(type: CellType, content: String)] = [(.Header, "About Me"), (.Text, "intro"), (.Photo, "bgImage"), (.Photo, "Profile")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,38 +44,56 @@ class MainTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return array.count
+        return array2.count
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        switch indexPath.row {
-        case 0:
+        let typeOfCell : CellType = array2[indexPath.row].type
+        let content : String = array2[indexPath.row].content
+        
+        switch typeOfCell {
+        case .Header:
             let cell = tableView.dequeueReusableCellWithIdentifier("headerCell", forIndexPath: indexPath) as! HeaderTableViewCell
-            cell.loadItem(array[indexPath.row], image: "bgImage1")
+            cell.loadItem(content, image: "Profile")
             return cell
-        case 1:
+        case .Text:
             let cell = tableView.dequeueReusableCellWithIdentifier("textCell", forIndexPath: indexPath) as! TextTableViewCell
-            cell.loadItem(array[indexPath.row])
+            cell.loadItem(content)
             return cell
-        case 2:
+        case .Photo:
             let cell = tableView.dequeueReusableCellWithIdentifier("photoCell", forIndexPath: indexPath) as! ImageTableViewCell
-            cell.loadItem("bgImage1")
-            return cell
-        case 3:
-            let cell = tableView.dequeueReusableCellWithIdentifier("textCell", forIndexPath: indexPath) as! TextTableViewCell
-            cell.loadItem(array[indexPath.row])
-            return cell
-        case 4:
-            let cell = tableView.dequeueReusableCellWithIdentifier("photoCell", forIndexPath: indexPath) as! ImageTableViewCell
-            cell.loadItem("bgImage1")
-            return cell
-        default:
-            let cell = tableView.dequeueReusableCellWithIdentifier("headerCell", forIndexPath: indexPath) as! HeaderTableViewCell
-            cell.loadItem(array[indexPath.row], image: "bgImage1")
+            cell.loadItem(content)
             return cell
         }
+        
+//        switch indexPath.row {
+//        case 0:
+//            let cell = tableView.dequeueReusableCellWithIdentifier("headerCell", forIndexPath: indexPath) as! HeaderTableViewCell
+//            cell.loadItem(array[indexPath.row], image: "bgImage1")
+//            return cell
+//        case 1:
+//            let cell = tableView.dequeueReusableCellWithIdentifier("textCell", forIndexPath: indexPath) as! TextTableViewCell
+//            cell.loadItem(array[indexPath.row])
+//            return cell
+//        case 2:
+//            let cell = tableView.dequeueReusableCellWithIdentifier("photoCell", forIndexPath: indexPath) as! ImageTableViewCell
+//            cell.loadItem("bgImage1")
+//            return cell
+//        case 3:
+//            let cell = tableView.dequeueReusableCellWithIdentifier("textCell", forIndexPath: indexPath) as! TextTableViewCell
+//            cell.loadItem(array[indexPath.row])
+//            return cell
+//        case 4:
+//            let cell = tableView.dequeueReusableCellWithIdentifier("photoCell", forIndexPath: indexPath) as! ImageTableViewCell
+//            cell.loadItem("bgImage1")
+//            return cell
+//        default:
+//            let cell = tableView.dequeueReusableCellWithIdentifier("headerCell", forIndexPath: indexPath) as! HeaderTableViewCell
+//            cell.loadItem(array[indexPath.row], image: "bgImage1")
+//            return cell
+//        }
     }
     
 

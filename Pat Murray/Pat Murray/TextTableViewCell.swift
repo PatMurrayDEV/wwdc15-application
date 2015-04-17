@@ -11,10 +11,12 @@ import UIKit
 class TextTableViewCell: UITableViewCell {
 
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var textViewHeightContraint : NSLayoutConstraint!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.selectionStyle = .None
     }
     
     func loadItem(rtfNamed : String){
@@ -25,6 +27,8 @@ class TextTableViewCell: UITableViewCell {
         var dataRTF : NSData = NSData(contentsOfFile: path)!
         var printString : NSAttributedString = NSAttributedString(data: dataRTF, options: nil, documentAttributes: nil, error: nil)!
         textView.attributedText = printString
+        textView.layoutIfNeeded()
+        self.bounds.size.height = textView.bounds.height + 10
     }
 
     override func setSelected(selected: Bool, animated: Bool) {

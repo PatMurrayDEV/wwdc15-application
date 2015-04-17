@@ -17,6 +17,8 @@ class HeaderTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        self.selectionStyle = .None
+        
         // Circle crop the hero image
         headerImageView.layer.borderWidth=1.0
         headerImageView.layer.masksToBounds = false
