@@ -7,47 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1BE2CA1AE72A0100756D47 /* proj3.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BE2C91AE72A0100756D47 /* proj3.rtf */; };
+		CD3C03881AE3ACEF007439E8 /* PopoverDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3C03851AE3ACEF007439E8 /* PopoverDetailViewController.m */; };
+		CD3C03891AE3ACEF007439E8 /* PopoverDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3C03871AE3ACEF007439E8 /* PopoverDetailViewController.xib */; };
+		CD3C038B1AE5C6E3007439E8 /* ContentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3C038A1AE5C6E3007439E8 /* ContentObject.swift */; };
 		CD5896841ADF354900557F9C /* PanoramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5896821ADF354900557F9C /* PanoramaView.swift */; };
 		CD5896851ADF354900557F9C /* PanoramaIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5896831ADF354900557F9C /* PanoramaIndicator.swift */; };
 		CD5896871ADF368800557F9C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5896861ADF368800557F9C /* CoreMotion.framework */; };
 		CD5896921ADF448700557F9C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5896911ADF448700557F9C /* MenuViewController.swift */; };
 		CD5896941ADF45BA00557F9C /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5896931ADF45BA00557F9C /* QuickLook.framework */; };
-		CD5896961ADF4BAB00557F9C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD5896951ADF4BAB00557F9C /* LICENSE.txt */; };
 		CD5896981ADF815A00557F9C /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5896971ADF815A00557F9C /* MainTableViewController.swift */; };
 		CD58969A1ADF832100557F9C /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5896991ADF832100557F9C /* HeaderTableViewCell.swift */; };
-		CD5896A21ADF8BD800557F9C /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5896A11ADF8BD800557F9C /* ImageTableViewCell.swift */; };
-		CD5896A41ADF8FEC00557F9C /* intro2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD5896A31ADF8FEC00557F9C /* intro2.rtf */; };
+		CD8C58231AE8DB60009FE25C /* interests3.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD8C58221AE8DB60009FE25C /* interests3.rtf */; };
+		CD8C58251AE8F490009FE25C /* proj4.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD8C58241AE8F490009FE25C /* proj4.rtf */; };
+		CD8C58271AE8F734009FE25C /* edu2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD8C58261AE8F734009FE25C /* edu2.rtf */; };
+		CD8C58291AE8F9EE009FE25C /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD8C58281AE8F9EE009FE25C /* README.rtf */; };
+		CD8C582B1AE9128F009FE25C /* interests4.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD8C582A1AE9128F009FE25C /* interests4.rtf */; };
 		CD8D17691ADE27FB0056BF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D17681ADE27FB0056BF8F /* AppDelegate.swift */; };
 		CD8D176B1ADE27FB0056BF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D176A1ADE27FB0056BF8F /* ViewController.swift */; };
 		CD8D176E1ADE27FB0056BF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8D176C1ADE27FB0056BF8F /* Main.storyboard */; };
 		CD8D17701ADE27FB0056BF8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8D176F1ADE27FB0056BF8F /* Images.xcassets */; };
 		CD8D17731ADE27FB0056BF8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8D17711ADE27FB0056BF8F /* LaunchScreen.xib */; };
-		CD8D177F1ADE27FB0056BF8F /* Pat_MurrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D177E1ADE27FB0056BF8F /* Pat_MurrayTests.swift */; };
-		CD8D17891ADE51F50056BF8F /* intro.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD8D17881ADE51F50056BF8F /* intro.rtf */; };
+		CDA66A4F1AE22E5F002A29B9 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA66A4E1AE22E5F002A29B9 /* ImageTableViewCell.swift */; };
+		CDBC5A6F1AE660C400BE70FC /* intro3.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDBC5A6E1AE660C400BE70FC /* intro3.rtf */; };
+		CDBC5A721AE6630900BE70FC /* intro.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDBC5A701AE6630900BE70FC /* intro.rtf */; };
+		CDBC5A731AE6630900BE70FC /* intro2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDBC5A711AE6630900BE70FC /* intro2.rtf */; };
+		CDBC5A751AE6633300BE70FC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBC5A741AE6633300BE70FC /* LICENSE.txt */; };
+		CDBC5A771AE664A600BE70FC /* edu1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDBC5A761AE664A600BE70FC /* edu1.rtf */; };
+		CDBC5A791AE66EC100BE70FC /* proj1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDBC5A781AE66EC100BE70FC /* proj1.rtf */; };
+		CDBC5A7B1AE6701600BE70FC /* proj2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDBC5A7A1AE6701600BE70FC /* proj2.rtf */; };
+		CDBC5A7D1AE678FD00BE70FC /* interests1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDBC5A7C1AE678FD00BE70FC /* interests1.rtf */; };
+		CDBC5A7F1AE67B6A00BE70FC /* interests2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDBC5A7E1AE67B6A00BE70FC /* interests2.rtf */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CD8D17791ADE27FB0056BF8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD8D175B1ADE27FB0056BF8F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD8D17621ADE27FB0056BF8F;
-			remoteInfo = "Pat Murray";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		CD1BE2C91AE72A0100756D47 /* proj3.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = proj3.rtf; sourceTree = "<group>"; };
+		CD3C03841AE3AAFC007439E8 /* Pat Murray-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pat Murray-Bridging-Header.h"; sourceTree = "<group>"; };
+		CD3C03851AE3ACEF007439E8 /* PopoverDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverDetailViewController.m; sourceTree = "<group>"; };
+		CD3C03861AE3ACEF007439E8 /* PopoverDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverDetailViewController.h; sourceTree = "<group>"; };
+		CD3C03871AE3ACEF007439E8 /* PopoverDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopoverDetailViewController.xib; sourceTree = "<group>"; };
+		CD3C038A1AE5C6E3007439E8 /* ContentObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentObject.swift; sourceTree = "<group>"; };
 		CD5896821ADF354900557F9C /* PanoramaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanoramaView.swift; sourceTree = "<group>"; };
 		CD5896831ADF354900557F9C /* PanoramaIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanoramaIndicator.swift; sourceTree = "<group>"; };
 		CD5896861ADF368800557F9C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		CD5896881ADF39A700557F9C /* Pat Murray-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pat Murray-Bridging-Header.h"; sourceTree = "<group>"; };
 		CD5896911ADF448700557F9C /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CD5896931ADF45BA00557F9C /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
-		CD5896951ADF4BAB00557F9C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		CD5896971ADF815A00557F9C /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		CD5896991ADF832100557F9C /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
-		CD5896A11ADF8BD800557F9C /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
-		CD5896A31ADF8FEC00557F9C /* intro2.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = intro2.rtf; sourceTree = "<group>"; };
+		CD8C58221AE8DB60009FE25C /* interests3.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = interests3.rtf; sourceTree = "<group>"; };
+		CD8C58241AE8F490009FE25C /* proj4.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = proj4.rtf; sourceTree = "<group>"; };
+		CD8C58261AE8F734009FE25C /* edu2.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = edu2.rtf; sourceTree = "<group>"; };
+		CD8C58281AE8F9EE009FE25C /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+		CD8C582A1AE9128F009FE25C /* interests4.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = interests4.rtf; sourceTree = "<group>"; };
 		CD8D17631ADE27FB0056BF8F /* Pat Murray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pat Murray.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8D17671ADE27FB0056BF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD8D17681ADE27FB0056BF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,10 +66,16 @@
 		CD8D176D1ADE27FB0056BF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD8D176F1ADE27FB0056BF8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD8D17721ADE27FB0056BF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CD8D17781ADE27FB0056BF8F /* Pat MurrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pat MurrayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD8D177D1ADE27FB0056BF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD8D177E1ADE27FB0056BF8F /* Pat_MurrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pat_MurrayTests.swift; sourceTree = "<group>"; };
-		CD8D17881ADE51F50056BF8F /* intro.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = intro.rtf; sourceTree = "<group>"; };
+		CDA66A4E1AE22E5F002A29B9 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		CDBC5A6E1AE660C400BE70FC /* intro3.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = intro3.rtf; sourceTree = "<group>"; };
+		CDBC5A701AE6630900BE70FC /* intro.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = intro.rtf; sourceTree = "<group>"; };
+		CDBC5A711AE6630900BE70FC /* intro2.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = intro2.rtf; sourceTree = "<group>"; };
+		CDBC5A741AE6633300BE70FC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		CDBC5A761AE664A600BE70FC /* edu1.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = edu1.rtf; sourceTree = "<group>"; };
+		CDBC5A781AE66EC100BE70FC /* proj1.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = proj1.rtf; sourceTree = "<group>"; };
+		CDBC5A7A1AE6701600BE70FC /* proj2.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = proj2.rtf; sourceTree = "<group>"; };
+		CDBC5A7C1AE678FD00BE70FC /* interests1.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = interests1.rtf; sourceTree = "<group>"; };
+		CDBC5A7E1AE67B6A00BE70FC /* interests2.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = interests2.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,23 +88,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD8D17751ADE27FB0056BF8F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD58969B1ADF832B00557F9C /* TabelViewCells */ = {
+		CD58969B1ADF832B00557F9C /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				CD5896A11ADF8BD800557F9C /* ImageTableViewCell.swift */,
+				CDA66A4E1AE22E5F002A29B9 /* ImageTableViewCell.swift */,
 				CD5896991ADF832100557F9C /* HeaderTableViewCell.swift */,
 			);
-			name = TabelViewCells;
+			name = TableViewCells;
 			sourceTree = "<group>";
 		};
 		CD58969C1ADF833B00557F9C /* ViewControllers */ = {
@@ -96,6 +106,7 @@
 				CD8D176A1ADE27FB0056BF8F /* ViewController.swift */,
 				CD5896971ADF815A00557F9C /* MainTableViewController.swift */,
 				CD5896911ADF448700557F9C /* MenuViewController.swift */,
+				CD3C038A1AE5C6E3007439E8 /* ContentObject.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -112,6 +123,9 @@
 		CD58969E1ADF835C00557F9C /* 3rdPartyCode */ = {
 			isa = PBXGroup;
 			children = (
+				CD3C03851AE3ACEF007439E8 /* PopoverDetailViewController.m */,
+				CD3C03861AE3ACEF007439E8 /* PopoverDetailViewController.h */,
+				CD3C03871AE3ACEF007439E8 /* PopoverDetailViewController.xib */,
 				CD5896821ADF354900557F9C /* PanoramaView.swift */,
 				CD5896831ADF354900557F9C /* PanoramaIndicator.swift */,
 			);
@@ -121,11 +135,7 @@
 		CD8D175A1ADE27FB0056BF8F = {
 			isa = PBXGroup;
 			children = (
-				CD5896951ADF4BAB00557F9C /* LICENSE.txt */,
-				CD8D17881ADE51F50056BF8F /* intro.rtf */,
-				CD5896A31ADF8FEC00557F9C /* intro2.rtf */,
 				CD8D17651ADE27FB0056BF8F /* Pat Murray */,
-				CD8D177B1ADE27FB0056BF8F /* Pat MurrayTests */,
 				CD8D17641ADE27FB0056BF8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				CD8D17631ADE27FB0056BF8F /* Pat Murray.app */,
-				CD8D17781ADE27FB0056BF8F /* Pat MurrayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,10 +151,11 @@
 		CD8D17651ADE27FB0056BF8F /* Pat Murray */ = {
 			isa = PBXGroup;
 			children = (
+				CD8C58281AE8F9EE009FE25C /* README.rtf */,
 				CD8D17681ADE27FB0056BF8F /* AppDelegate.swift */,
 				CD58969C1ADF833B00557F9C /* ViewControllers */,
 				CD58969D1ADF834700557F9C /* InterfaceFiles */,
-				CD58969B1ADF832B00557F9C /* TabelViewCells */,
+				CD58969B1ADF832B00557F9C /* TableViewCells */,
 				CD8D17661ADE27FB0056BF8F /* Supporting Files */,
 			);
 			path = "Pat Murray";
@@ -154,31 +164,68 @@
 		CD8D17661ADE27FB0056BF8F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CD58969E1ADF835C00557F9C /* 3rdPartyCode */,
+				CDBC5A741AE6633300BE70FC /* LICENSE.txt */,
+				CD3C03841AE3AAFC007439E8 /* Pat Murray-Bridging-Header.h */,
+				CD8D17671ADE27FB0056BF8F /* Info.plist */,
 				CD8D176F1ADE27FB0056BF8F /* Images.xcassets */,
+				CDBC5A691AE5F8D000BE70FC /* RTF Content */,
+				CD58969E1ADF835C00557F9C /* 3rdPartyCode */,
 				CD5896931ADF45BA00557F9C /* QuickLook.framework */,
 				CD5896861ADF368800557F9C /* CoreMotion.framework */,
-				CD8D17671ADE27FB0056BF8F /* Info.plist */,
-				CD5896881ADF39A700557F9C /* Pat Murray-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CD8D177B1ADE27FB0056BF8F /* Pat MurrayTests */ = {
+		CDBC5A691AE5F8D000BE70FC /* RTF Content */ = {
 			isa = PBXGroup;
 			children = (
-				CD8D177E1ADE27FB0056BF8F /* Pat_MurrayTests.swift */,
-				CD8D177C1ADE27FB0056BF8F /* Supporting Files */,
+				CDBC5A6A1AE6184D00BE70FC /* About */,
+				CDBC5A6B1AE6189200BE70FC /* Projects */,
+				CDBC5A6C1AE618A000BE70FC /* Education */,
+				CDBC5A6D1AE618C000BE70FC /* Interests */,
 			);
-			path = "Pat MurrayTests";
+			name = "RTF Content";
 			sourceTree = "<group>";
 		};
-		CD8D177C1ADE27FB0056BF8F /* Supporting Files */ = {
+		CDBC5A6A1AE6184D00BE70FC /* About */ = {
 			isa = PBXGroup;
 			children = (
-				CD8D177D1ADE27FB0056BF8F /* Info.plist */,
+				CDBC5A701AE6630900BE70FC /* intro.rtf */,
+				CDBC5A711AE6630900BE70FC /* intro2.rtf */,
+				CDBC5A6E1AE660C400BE70FC /* intro3.rtf */,
 			);
-			name = "Supporting Files";
+			name = About;
+			sourceTree = "<group>";
+		};
+		CDBC5A6B1AE6189200BE70FC /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC5A781AE66EC100BE70FC /* proj1.rtf */,
+				CDBC5A7A1AE6701600BE70FC /* proj2.rtf */,
+				CD1BE2C91AE72A0100756D47 /* proj3.rtf */,
+				CD8C58241AE8F490009FE25C /* proj4.rtf */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		CDBC5A6C1AE618A000BE70FC /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC5A761AE664A600BE70FC /* edu1.rtf */,
+				CD8C58261AE8F734009FE25C /* edu2.rtf */,
+			);
+			name = Education;
+			sourceTree = "<group>";
+		};
+		CDBC5A6D1AE618C000BE70FC /* Interests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC5A7C1AE678FD00BE70FC /* interests1.rtf */,
+				CDBC5A7E1AE67B6A00BE70FC /* interests2.rtf */,
+				CD8C58221AE8DB60009FE25C /* interests3.rtf */,
+				CD8C582A1AE9128F009FE25C /* interests4.rtf */,
+			);
+			name = Interests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,24 +248,6 @@
 			productReference = CD8D17631ADE27FB0056BF8F /* Pat Murray.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CD8D17771ADE27FB0056BF8F /* Pat MurrayTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD8D17851ADE27FB0056BF8F /* Build configuration list for PBXNativeTarget "Pat MurrayTests" */;
-			buildPhases = (
-				CD8D17741ADE27FB0056BF8F /* Sources */,
-				CD8D17751ADE27FB0056BF8F /* Frameworks */,
-				CD8D17761ADE27FB0056BF8F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CD8D177A1ADE27FB0056BF8F /* PBXTargetDependency */,
-			);
-			name = "Pat MurrayTests";
-			productName = "Pat MurrayTests";
-			productReference = CD8D17781ADE27FB0056BF8F /* Pat MurrayTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -230,10 +259,12 @@
 				TargetAttributes = {
 					CD8D17621ADE27FB0056BF8F = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					CD8D17771ADE27FB0056BF8F = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = CD8D17621ADE27FB0056BF8F;
+						DevelopmentTeam = CC3KAA4FP8;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -251,7 +282,6 @@
 			projectRoot = "";
 			targets = (
 				CD8D17621ADE27FB0056BF8F /* Pat Murray */,
-				CD8D17771ADE27FB0056BF8F /* Pat MurrayTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,19 +291,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3C03891AE3ACEF007439E8 /* PopoverDetailViewController.xib in Resources */,
+				CDBC5A771AE664A600BE70FC /* edu1.rtf in Resources */,
+				CD8C58251AE8F490009FE25C /* proj4.rtf in Resources */,
+				CDBC5A7D1AE678FD00BE70FC /* interests1.rtf in Resources */,
+				CD8C58291AE8F9EE009FE25C /* README.rtf in Resources */,
 				CD8D176E1ADE27FB0056BF8F /* Main.storyboard in Resources */,
-				CD5896A41ADF8FEC00557F9C /* intro2.rtf in Resources */,
+				CDBC5A791AE66EC100BE70FC /* proj1.rtf in Resources */,
+				CDBC5A7F1AE67B6A00BE70FC /* interests2.rtf in Resources */,
+				CDBC5A731AE6630900BE70FC /* intro2.rtf in Resources */,
+				CD8C582B1AE9128F009FE25C /* interests4.rtf in Resources */,
+				CDBC5A6F1AE660C400BE70FC /* intro3.rtf in Resources */,
+				CDBC5A751AE6633300BE70FC /* LICENSE.txt in Resources */,
+				CD8C58231AE8DB60009FE25C /* interests3.rtf in Resources */,
+				CDBC5A7B1AE6701600BE70FC /* proj2.rtf in Resources */,
 				CD8D17731ADE27FB0056BF8F /* LaunchScreen.xib in Resources */,
+				CD1BE2CA1AE72A0100756D47 /* proj3.rtf in Resources */,
+				CD8C58271AE8F734009FE25C /* edu2.rtf in Resources */,
+				CDBC5A721AE6630900BE70FC /* intro.rtf in Resources */,
 				CD8D17701ADE27FB0056BF8F /* Images.xcassets in Resources */,
-				CD5896961ADF4BAB00557F9C /* LICENSE.txt in Resources */,
-				CD8D17891ADE51F50056BF8F /* intro.rtf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD8D17761ADE27FB0056BF8F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,32 +322,18 @@
 			files = (
 				CD8D176B1ADE27FB0056BF8F /* ViewController.swift in Sources */,
 				CD8D17691ADE27FB0056BF8F /* AppDelegate.swift in Sources */,
-				CD5896A21ADF8BD800557F9C /* ImageTableViewCell.swift in Sources */,
+				CD3C038B1AE5C6E3007439E8 /* ContentObject.swift in Sources */,
+				CDA66A4F1AE22E5F002A29B9 /* ImageTableViewCell.swift in Sources */,
 				CD5896921ADF448700557F9C /* MenuViewController.swift in Sources */,
 				CD58969A1ADF832100557F9C /* HeaderTableViewCell.swift in Sources */,
 				CD5896851ADF354900557F9C /* PanoramaIndicator.swift in Sources */,
 				CD5896981ADF815A00557F9C /* MainTableViewController.swift in Sources */,
+				CD3C03881AE3ACEF007439E8 /* PopoverDetailViewController.m in Sources */,
 				CD5896841ADF354900557F9C /* PanoramaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD8D17741ADE27FB0056BF8F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD8D177F1ADE27FB0056BF8F /* Pat_MurrayTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CD8D177A1ADE27FB0056BF8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD8D17621ADE27FB0056BF8F /* Pat Murray */;
-			targetProxy = CD8D17791ADE27FB0056BF8F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CD8D176C1ADE27FB0056BF8F /* Main.storyboard */ = {
@@ -419,9 +441,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Pat Murray/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Pat Murray/Pat Murray-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -432,44 +457,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Pat Murray/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Pat Murray/Pat Murray-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		CD8D17861ADE27FB0056BF8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Pat MurrayTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pat Murray.app/Pat Murray";
-			};
-			name = Debug;
-		};
-		CD8D17871ADE27FB0056BF8F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Pat MurrayTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pat Murray.app/Pat Murray";
 			};
 			name = Release;
 		};
@@ -490,15 +484,6 @@
 			buildConfigurations = (
 				CD8D17831ADE27FB0056BF8F /* Debug */,
 				CD8D17841ADE27FB0056BF8F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD8D17851ADE27FB0056BF8F /* Build configuration list for PBXNativeTarget "Pat MurrayTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD8D17861ADE27FB0056BF8F /* Debug */,
-				CD8D17871ADE27FB0056BF8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

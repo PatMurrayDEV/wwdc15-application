@@ -16,17 +16,14 @@ class HeaderTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
         self.selectionStyle = .None
         
         // Circle crop the hero image
-        headerImageView.layer.borderWidth=1.0
+        headerImageView.layer.borderWidth = 2.0
         headerImageView.layer.masksToBounds = false
         headerImageView.layer.borderColor = UIColor.whiteColor().CGColor
-        headerImageView.layer.cornerRadius = 13
         headerImageView.layer.cornerRadius = headerImageView.frame.size.height/2
         headerImageView.clipsToBounds = true
-
     }
     
     func loadItem(title : String, image : String){
@@ -34,14 +31,6 @@ class HeaderTableViewCell: UITableViewCell {
         headerImageView.image = headerImage
         headerTitleLabel.text = title
         self.backgroundColor = .clearColor()
-
-        
-    }
-
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }

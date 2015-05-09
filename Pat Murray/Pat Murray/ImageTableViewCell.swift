@@ -11,23 +11,18 @@ import UIKit
 class ImageTableViewCell: UITableViewCell {
 
     @IBOutlet weak var detailImageView: UIImageView!
-    
+        
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         self.selectionStyle = .None
+        detailImageView.clipsToBounds = true
     }
     
-    func loadItem(detailString: String){
+    func loadItem(detailString: String) {
         var detailImage = UIImage(named: detailString)!
         detailImageView.image = detailImage
         self.backgroundColor = .clearColor()
-    }
-
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }
