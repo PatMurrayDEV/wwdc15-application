@@ -4,9 +4,9 @@ My entry for the 2015 Apple WWDC Student Scholarship.
 
 __Accepted__
 
-![Screenshot 1](/WWDC-scholarship-screenshot-1.png “About Me screen (used for all information screens)“)
-![Screenshot 2](/WWDC-scholarship-screenshot-2.png “Menu screen“)
-![Screenshot 3](/WWDC-scholarship-screenshot-3.png “Photo popup“)
+![Screenshot 1](/WWDC-scholarship-screenshot-1.png)
+![Screenshot 2](/WWDC-scholarship-screenshot-2.png)
+![Screenshot 3](/WWDC-scholarship-screenshot-3.png)
 
 
 ## Roadmap
